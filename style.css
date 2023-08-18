@@ -123,6 +123,15 @@ body {
     nav {
         display: none;
     }
+
+    .main {
+        height: auto;
+    }
+
+    .r1 {
+        left: 300px;
+    }
+
     .c-left {
         margin-right: 40px;
     }
@@ -135,23 +144,14 @@ body {
     .box {
         width: 20rem;
     }
+
     .slider-btns {
         font-size: 1.5rem;
     }
-    .r1 {
-        left: 300px;
-    }
+
 }
 
 @media screen and (min-width:481px) and (max-width:768px) {
-
-    .c-left{
-        margin-right: 0;
-    }
-
-    .c-right {
-        display: none;
-    }
 
     nav {
         display: flex;
@@ -159,21 +159,71 @@ body {
         justify-content: start;
         align-items: center;
     }
+
     nav img {
         height: 60px;
         width: 50px;
         margin-right: 20px;
     }
+
+    .main {
+        height: auto;
+    }
+
+    .r1 {
+        top: 30px;
+    }
+
+    .c-left {
+        margin: 50px 0 50px 0;
+    }
+
+    .c-right {
+        display: none;
+    }
+
+
     .slider-btns {
         font-size: 1.5rem;
+    }
+
+
+    .r2 {
+        bottom: 20px;
     }
 
 }
 
 @media screen and (min-width:320px) and (max-width:480px) {
 
-    .c-left{
-        margin-right: 0;
+    nav {
+        display: flex;
+        margin: 15px 30px;
+        justify-content: start;
+        align-items: center;
+    }
+
+    nav h1 {
+        font-size: 1rem;
+    }
+
+    nav img {
+        height: 60px;
+        width: 50px;
+        margin-right: 20px;
+    }
+
+    .main {
+        height: auto;
+    }
+
+    .r1 {
+        left: 200px;
+        top: 25px;
+    }
+
+    .c-left {
+        margin: 50px 0 50px 0;
     }
 
     .c-right {
@@ -184,26 +234,14 @@ body {
         width: 15rem;
     }
 
-    nav {
-        display: flex;
-        margin: 15px 30px;
-        justify-content: start;
-        align-items: center;
-    }
-    nav h1 {
-        font-size: 1rem;
-    }
-    nav img {
-        height: 60px;
-        width: 50px;
-        margin-right: 20px;
-    }
+
     .slider-btns {
         font-size: 1.5rem;
     }
 
-    .r1 {
-        left: 210px;
+
+    .r2 {
+        bottom: 20px;
     }
 
 }
