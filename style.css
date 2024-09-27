@@ -112,6 +112,12 @@ body {
 
 /* Media queries */
 
+@media screen and (min-width: 1301px) {
+    nav {
+        display: none;
+    }
+}
+
 @media screen and (min-width: 1024px) and (max-width: 1300px) {
     nav {
         display: none;
@@ -146,6 +152,10 @@ body {
 
     .slider-btns {
         font-size: 1.5rem;
+    }
+
+    .song-pic {
+        width: 10rem;
     }
 
 }
